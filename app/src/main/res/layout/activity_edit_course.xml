@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".All.UI.EditCourse">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/courseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="30dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Course Title"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/termIdLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:text="Term Number"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseTitle" />
+
+            <EditText
+                android:id="@+id/termId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="127dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Term Number"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startLabel" />
+
+            <TextView
+                android:id="@+id/statusLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="197dp"
+                android:ems="10"
+                android:text="Course Status"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseTitle" />
+
+            <EditText
+                android:id="@+id/courseStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="224dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Course Status"
+                android:inputType="date"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startLabel" />
+
+
+            <EditText
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="321dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Start Date"
+                android:inputType="date"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startLabel" />
+
+            <EditText
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="394dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="End Date"
+                android:inputType="date"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/endLabel" />
+
+            <TextView
+                android:id="@+id/startLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="294dp"
+                android:ems="10"
+                android:text="Start Date"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseStatus" />
+
+            <TextView
+                android:id="@+id/endLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="367dp"
+                android:ems="10"
+                android:text="End Date"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startDate" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="860dp"
+                android:text="Course Instructor Info"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/endDate" />
+
+            <EditText
+                android:id="@+id/instructorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="887dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <EditText
+                android:id="@+id/instructorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="979dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorName" />
+
+            <EditText
+                android:id="@+id/instructorPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="933dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Phone #"
+                android:inputType="phone"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorEmail" />
+
+            <TextView
+                android:id="@+id/notes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1049dp"
+                android:text="Notes"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorPhone" />
+
+            <EditText
+                android:id="@+id/courseNotes"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="1076dp"
+                android:layout_marginEnd="12dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:textColor="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/notes" />
+
+            <TextView
+                android:id="@+id/courseAssessments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="464dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/assessmentLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="464dp"
+                android:layout_toRightOf="@id/courseAssessments"
+                android:text=" Assessments"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="800dp"
+                android:backgroundTint="#EFEFEF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="onAddAssessment"
+                android:text="Add Assessment"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/courseAssessmentsRv"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="491dp"
+                android:layout_marginEnd="12dp">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="57dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1210dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EFEFEF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="onSaveUpdateCourse"
+                android:text="Save"
+                android:textColor="@color/black"
+                app:cornerRadius="30dp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

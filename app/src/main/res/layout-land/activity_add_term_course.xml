@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All.UI.AddTermCourse"
+    android:background="@color/black">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/onSaveAddCourse"
+                android:layout_width="150dp"
+                android:layout_height="57dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="800dp"
+                android:layout_marginEnd="12dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#EFEFEF"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:onClick="onSaveAddTermCourse"
+                android:text="Save"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                app:cornerRadius="30dp"
+                android:layout_alignParentEnd="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <EditText
+                android:id="@+id/courseId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Course ID"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/termId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="90dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Term Number"
+                android:inputType="number"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseId" />
+
+            <EditText
+                android:id="@+id/courseTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="160dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Course Title"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/termId" />
+
+            <EditText
+                android:id="@+id/addCourseStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="230dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Course Status"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/courseTitle" />
+
+            <EditText
+                android:id="@+id/startDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="300dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Start Date   (dd/mm/yyyy)"
+                android:inputType="date"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/addCourseStatus" />
+
+            <EditText
+                android:id="@+id/endDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="370dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="End Date   (dd/mm/yyyy)"
+                android:inputType="date"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/startDate" />
+
+            <EditText
+                android:id="@+id/instructorsName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="440dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Name"
+                android:inputType="textPersonName"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/endDate" />
+
+            <EditText
+                android:id="@+id/instructorPhone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="510dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Phone #"
+                android:inputType="phone"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorsName" />
+
+            <EditText
+                android:id="@+id/instructorEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="580dp"
+                android:backgroundTint="@color/white"
+                android:ems="10"
+                android:hint="Instructor's Email"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorPhone" />
+
+            <EditText
+                android:id="@+id/courseNote"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="650dp"
+                android:layout_marginRight="12dp"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Write Notes Here..."
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/instructorEmail" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

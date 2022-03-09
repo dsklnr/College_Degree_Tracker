@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_add_assessment.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_add_course.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_add_course_assessment.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_add_term.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_add_term_course.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_assessment_directory.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_course_directory.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_edit_assessment.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_edit_course.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_edit_course_assessment.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_edit_term.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_edit_term_course.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_main.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/activity_term_directory.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/assessment_card.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/course__card.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/courses_in_terms_card.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/term_card.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout-land/term_courses_card.xml" value="0.3148148148148148" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_add_assessment.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_add_course.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_add_course_assessment.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_add_term.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_add_term_course.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_assessment_directory.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_course_directory.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_edit_assessment.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_edit_course.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_edit_course_assessment.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_edit_term.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_edit_term_course.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_main.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/activity_term_directory.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/assessment_card.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/course__card.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/courses_in_terms_card.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/term_card.xml" value="0.371875" />
+        <entry key="..\:/Android Dev/DegreePlan/app/src/main/res/layout/term_courses_card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/card_backround.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/ic_add_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/ic_add_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/ic_calendar_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/ic_delete_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/drawable/ic_edit_foreground.xml" value="0.3880208333333333" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_add_assessment.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_add_course.xml" value="0.33" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_add_course_assessment.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_add_term.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_add_term_course.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_assessment_directory.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_course_directory.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_edit_assessment.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_edit_course.xml" value="0.32157177225340816" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_edit_course_assessment.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_edit_term.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_edit_term_course.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_main2.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/activity_term_directory.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/assessment_card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/course__card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/course_card_2.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/course_directory.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/courses_in_terms_card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/list_item.xml" value="0.3578125" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/term_card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/layout/term_courses_card.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/add_menu.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/assessment_list.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/course_list.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/delete.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/delete_notify.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/notify_share_list.xml" value="0.371875" />
+        <entry key="..\:/Users/benog/AndroidStudioProjects/DegreePlan/app/src/main/res/menu/term_list.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

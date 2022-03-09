@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".All.UI.AddTerm"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/termId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Term ID"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/termTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:backgroundTint="@color/white"
+        android:ems="10"
+        android:hint="Term Title"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:layout_editor_absoluteY="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termId" />
+
+    <EditText
+        android:id="@+id/termStartDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="date"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:hint="Start Date   (00/00/0000)"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termTitle" />
+
+    <EditText
+        android:id="@+id/termEndDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:inputType="date"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:hint="End Date     (00/00/0000)"
+        android:textColorHint="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/termStartDate" />
+
+    <Button
+        android:id="@+id/onSaveAddCourse"
+        android:layout_width="150dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#EFEFEF"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:minWidth="0dp"
+        android:minHeight="0dp"
+        android:onClick="onSaveAddTerm"
+        android:text="Save"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
